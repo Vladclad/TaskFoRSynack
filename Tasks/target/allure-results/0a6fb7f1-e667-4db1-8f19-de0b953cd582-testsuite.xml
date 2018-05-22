@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1526966807088" stop="1526966809333" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : Tasks</name>
+    <title>Default Suite : Tasks</title>
+    <test-cases>
+        <test-case start="1526966807381" stop="1526966809175" status="passed">
+            <name>dynamicContnt</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="Tasks"/>
+                <label name="testClass" value="TestLabriary"/>
+                <label name="testMethod" value="dynamicContnt"/>
+                <label name="host" value="Tubi-MacBook-C02Q61ADFVH6"/>
+                <label name="thread" value="72050@Tubi-MacBook-C02Q61ADFVH6.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
