@@ -31,6 +31,7 @@ public class DataProviderForTest implements ITest {
         BufferedReader br = new BufferedReader(new FileReader(csvFile));
         while ((cvsLine = br.readLine()) != null) {a = cvsLine.split(","); al.add(a);}
         br.close();
-        return al.iterator();}
+        Iterator<String[]> iterator=al.iterator();
+        return iterator;}
 
 }

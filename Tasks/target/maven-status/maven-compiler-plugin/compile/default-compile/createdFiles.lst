@@ -1,0 +1,14 @@
+Screens/ElementsForLogInPage.class
+Screens/ElemetsForSecurePage.class
+Screens/DisappearingPage.class
+Screens/ElementsForDisappearingPage.class
+Screens/PageWithDynamicContent.class
+Screens/ElementsForMouseHover.class
+Screens/NotificationMessagePage.class
+Screens/SecureAreaPage.class
+Screens/ElementsForNotificationMessage.class
+Screens/ElementsForDynamicContent.class
+Driver/Driverer.class
+Driver/Base.class
+Screens/LogInPage.class
+Screens/MouseHoverPage.class

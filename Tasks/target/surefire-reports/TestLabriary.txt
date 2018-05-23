@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestLabriary
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.881 s <<< FAILURE! - in TestLabriary
+disappearingElements(TestLabriary)  Time elapsed: 3.844 s  <<< FAILURE!
+java.lang.AssertionError: After page refresh element disappeared max refreshing 10 expected [5] but found [4]
+	at TestLabriary.disappearingElements(TestLabriary.java:91)
+

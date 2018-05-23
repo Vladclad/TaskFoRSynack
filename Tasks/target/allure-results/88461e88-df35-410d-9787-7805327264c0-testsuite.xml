@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1527023511570" stop="1527023524209" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Surefire suite : Surefire test</name>
+    <title>Surefire suite : Surefire test</title>
+    <test-cases>
+        <test-case start="1527023511747" stop="1527023515567" status="failed">
+            <name>disappearingElements</name>
+            <failure>
+                <message>AssertionError: After page refresh element disappeared max refreshing 10 expected [5] but found [4]</message>
+                <stack-trace>java.lang.AssertionError: After page refresh element disappeared max refreshing 10 expected [5] but found [4]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at TestLabriary.disappearingElements(TestLabriary.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="TestLabriary"/>
+                <label name="testMethod" value="disappearingElements"/>
+                <label name="host" value="Tubi-MacBook-C02Q61ADFVH6"/>
+                <label name="thread" value="77051@Tubi-MacBook-C02Q61ADFVH6.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1527023515598" stop="1527023516625" status="passed">
+            <name>dynamicContnt</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="TestLabriary"/>
+                <label name="testMethod" value="dynamicContnt"/>
+                <label name="host" value="Tubi-MacBook-C02Q61ADFVH6"/>
+                <label name="thread" value="77051@Tubi-MacBook-C02Q61ADFVH6.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1527023516632" stop="1527023518253" status="passed">
+            <name>logInPageErrorHandling</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="TestLabriary"/>
+                <label name="testMethod" value="logInPageErrorHandling"/>
+                <label name="host" value="Tubi-MacBook-C02Q61ADFVH6"/>
+                <label name="thread" value="77051@Tubi-MacBook-C02Q61ADFVH6.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1527023518270" stop="1527023519506" status="passed">
+            <name>logInPageHappyPath</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="TestLabriary"/>
+                <label name="testMethod" value="logInPageHappyPath"/>
+                <label name="host" value="Tubi-MacBook-C02Q61ADFVH6"/>
+                <label name="thread" value="77051@Tubi-MacBook-C02Q61ADFVH6.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1527023519510" stop="1527023520315" status="passed">
+            <name>moveMouseHover</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="TestLabriary"/>
+                <label name="testMethod" value="moveMouseHover"/>
+                <label name="host" value="Tubi-MacBook-C02Q61ADFVH6"/>
+                <label name="thread" value="77051@Tubi-MacBook-C02Q61ADFVH6.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1527023520317" stop="1527023521176" status="passed">
+            <name>notificationMessageTestForNegativeMessage</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="TestLabriary"/>
+                <label name="testMethod" value="notificationMessageTestForNegativeMessage"/>
+                <label name="host" value="Tubi-MacBook-C02Q61ADFVH6"/>
+                <label name="thread" value="77051@Tubi-MacBook-C02Q61ADFVH6.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1527023521181" stop="1527023523782" status="passed">
+            <name>notificationMessageTestForPositiveMessage</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="TestLabriary"/>
+                <label name="testMethod" value="notificationMessageTestForPositiveMessage"/>
+                <label name="host" value="Tubi-MacBook-C02Q61ADFVH6"/>
+                <label name="thread" value="77051@Tubi-MacBook-C02Q61ADFVH6.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

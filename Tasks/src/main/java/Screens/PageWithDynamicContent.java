@@ -15,9 +15,4 @@ public class PageWithDynamicContent extends Base implements ElementsForDynamicCo
            textDescriptions.add(waitForElementByXpath(ElementsForDynamicContent.textDescriptionOFUserXpath+"["+i+"]/div[2]").getText());// get text from each element
             i++;}
         return textDescriptions;}
-
-
-public void getPictureDescription() {
-waitForElementByXpath("//*[@id='content']/div[1]/div[1]/img");
-
-}}
+}

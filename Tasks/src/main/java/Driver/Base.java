@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 
 import java.util.List;
@@ -32,10 +33,16 @@ public class Base extends Driverer {
     public static void startBrowserForDynamicContent(){
         driver.get("https://the-internet.herokuapp.com/dynamic_content");  //URL for Mose Hover task
     }
+    public static void startBrowserForNotificationMessage(){
+       driver.get("https://the-internet.herokuapp.com/notification_message_rendered"); //URL for Notification task
+    }
+    public static void startBrowserForDisappearingElements(){
+       driver.get("https://the-internet.herokuapp.com/disappearing_elements ");    //URL for Disappearing Elements
+    }
 
-    @AfterMethod
-    public static void closeBrowser(){
-         driver.close();
+    @AfterClass
+   public static void closeBrowser(){
+        driver.close();
     }
 
     protected static WebElement waitForElementById (String id) {
@@ -52,10 +59,5 @@ public class Base extends Driverer {
     protected List getCountOfElementsById(String id){
         return driver.findElements(By.xpath(id));
     }
-
-
-       // protected static WebElement actions (String id){
-        //WebElement some = (WebElement) action.moveToElement(waitForElementById(id));
-        //return some;}
     }
 

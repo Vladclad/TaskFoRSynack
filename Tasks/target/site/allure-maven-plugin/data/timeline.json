@@ -1,0 +1,86 @@
+{
+  "hosts" : [ {
+    "title" : "Tubi-MacBook-C02Q61ADFVH6",
+    "threads" : [ {
+      "title" : "77051@Tubi-MacBook-C02Q61ADFVH6.main(1)",
+      "testCases" : [ {
+        "uid" : "66a18aff540985a2",
+        "name" : "disappearingElements",
+        "title" : "Disappearing elements",
+        "time" : {
+          "start" : 1527023511747,
+          "stop" : 1527023515567,
+          "duration" : 3820
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "384b5f416fa32835",
+        "name" : "dynamicContnt",
+        "title" : "Dynamic contnt",
+        "time" : {
+          "start" : 1527023515598,
+          "stop" : 1527023516625,
+          "duration" : 1027
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ef867c1298ccb38b",
+        "name" : "logInPageErrorHandling",
+        "title" : "Log in page error handling",
+        "time" : {
+          "start" : 1527023516632,
+          "stop" : 1527023518253,
+          "duration" : 1621
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f81898800b269141",
+        "name" : "logInPageHappyPath",
+        "title" : "Log in page happy path",
+        "time" : {
+          "start" : 1527023518270,
+          "stop" : 1527023519506,
+          "duration" : 1236
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "25d0b04fce9d6cf6",
+        "name" : "moveMouseHover",
+        "title" : "Move mouse hover",
+        "time" : {
+          "start" : 1527023519510,
+          "stop" : 1527023520315,
+          "duration" : 805
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "aa0b8cc49b4075d2",
+        "name" : "notificationMessageTestForNegativeMessage",
+        "title" : "Notification message test for negative message",
+        "time" : {
+          "start" : 1527023520317,
+          "stop" : 1527023521176,
+          "duration" : 859
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2c2ff9b238fe7d8",
+        "name" : "notificationMessageTestForPositiveMessage",
+        "title" : "Notification message test for positive message",
+        "time" : {
+          "start" : 1527023521181,
+          "stop" : 1527023523782,
+          "duration" : 2601
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
